@@ -1,3 +1,12 @@
-# The Modern JavaScript Tutorial
+# JavaScript Study
 
-A complete online book on the JavaScript language, from beginner to advanced concepts like object oriented programming.
+Documenting my process of studying the JavaScript language to keep myself accountable and reach completion.
+
+I will list the learned topics as I go.
+
+## Fundamentals:
+
+- Scripting inside HTML files
+- Using external JS scripts
+- The browser console
+- Code structure: statements, semicolons, comments
