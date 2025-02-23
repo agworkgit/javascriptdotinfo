@@ -88,7 +88,7 @@ There are subtle differences between `let` and `var`, but they do not matter to 
 We can easily grasp the concept of a “variable” if we imagine it as a “box” for data, with a uniquely-named sticker on it. <br>
 For instance, the variable `message` can be imagined as a box labelled `"message"` with the value `"Hello!"` inside it:
 
-![Variable Box](./4_variables/4.1_variables_images/variable_box_1.png)
+![Variable Box](https://github.com/agworkgit/javascriptdotinfo/blob/main/4_javascript_fundamentals/4_variables/4.1_variables_images/variable_box_1.png)
 
 We can put any value in the box. <br>
 We can also change it as many times as we want:
@@ -105,7 +105,7 @@ alert(message); // 'World!'
 
 When the value is changed, the old data is removed from the variable:
 
-![Variable Box](./4_variables/4.1_variables_images/variable_box_2.png)
+![Variable Box](https://github.com/agworkgit/javascriptdotinfo/blob/main/4_javascript_fundamentals/4_variables/4.1_variables_images/variable_box_2.png)
 
 We can also declare two variables and copy data from one into the other. <br>
 
