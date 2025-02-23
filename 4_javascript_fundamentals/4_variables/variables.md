@@ -308,7 +308,7 @@ Such programmers save a little bit on variable declaration but lose ten times mo
 An extra variable is good, not evil. <br>
 Modern JavaScript minifiers and browsers optimise code well enough, so it won’t create performance issues. Using different variables for different values can even help the engine optimise your code. <br>
 
-## Summary
+# Summary
 
 We can declare variables to store data by using the `var`, `let`, or `const` keywords.
 
