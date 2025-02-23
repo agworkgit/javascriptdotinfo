@@ -11,3 +11,5 @@ I will list the learned topics as I go.
 - Using external JS scripts
 - Accessing the browser console
 - Code structure: statements, semicolons, comments
+- Use Strict
+- Variables : variable naming, constants, naming things right

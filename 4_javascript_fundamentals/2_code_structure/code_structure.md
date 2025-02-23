@@ -119,7 +119,7 @@ alert('World');
 ```
 
 ### Use hotkeys! <br>
-In most editors, a line of code can be commented out by pressing the `Cmd+/` hotkey for a single-line comment and something like `Cmd+Shift+A` – for multiline comments (select a piece of code and press the hotkey).
+In most editors, a line of code can be commented out by pressing the `Cmd+/` hotkey for a single-line comment and something like `Option+Shift+A` – for multiline comments (select a piece of code and press the hotkey).
 
 ### Nested comments are not supported! <br>
 There may not be `/*...*/` inside another `/*...*/`.
