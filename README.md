@@ -1,8 +1,6 @@
-# JavaScript Study
+# JavaScript study
 
 Documenting my process of studying the JavaScript language to keep myself accountable and reach completion.
-
-I will list the learned topics as I go.
 
 ## Fundamentals:
 
@@ -13,3 +11,5 @@ I will list the learned topics as I go.
 - Code structure: statements, semicolons, comments
 - Use Strict
 - Variables : variable naming, constants, naming things right
+
+**This is my copy of the online book [JavaScript.info](https://javascript.info/) with added notes and solved exercises**
