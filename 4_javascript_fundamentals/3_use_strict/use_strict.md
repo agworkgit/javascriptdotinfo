@@ -6,7 +6,7 @@ That had the benefit of never breaking existing code. But the downside was that 
 
 This was the case until 2009 when **ECMAScript 5 (ES5)** appeared. It added new features to the language and modified some of the existing ones. To keep the old code working, most such modifications are off by default. You need to explicitly enable them with a special directive: `"use strict"`. <br>
 
-### “use strict”
+## “use strict”
 
 The directive looks like a string: `"use strict"` or `'use strict'`. When it is located at the top of a script, the whole script works the “modern” way.
 
@@ -42,7 +42,7 @@ Only comments may appear above `"use strict"`.
 There is no directive like "no use strict" that reverts the engine to old behavior. <br>
 Once we enter strict mode, there’s no going back.
 
-### Browser console
+## Browser console
 
 When you use a `developer console` to run code, please note that it doesn’t `use strict` by default. <br>
 Sometimes, when `use strict` makes a difference, you’ll get incorrect results. <br>
@@ -67,7 +67,7 @@ Put it inside this kind of wrapper:
 })()
 ```
 
-### Should we “use strict”?
+## Should we “use strict”?
 
 The question may sound obvious, but it’s not so. <br>
 One could recommend to start scripts with `"use strict"`… But you know what’s cool? <br>

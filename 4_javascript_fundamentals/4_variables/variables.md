@@ -7,7 +7,7 @@ Most of the time, a JavaScript application needs to work with information. Here 
 
 Variables are used to store this information.
 
-### A variable
+## A variable
 
 A `variable` is a “named storage” for data. We can use variables to store goodies, visitors, and other data. <br>
 To create a variable in JavaScript, use the `let` keyword. <br>
@@ -83,7 +83,7 @@ In older scripts, you may also find another keyword: `var` instead of `let`:
 The `var` keyword is almost the same as `let`. It also declares a variable but in a slightly different, “old-school” way. <br>
 There are subtle differences between `let` and `var`, but they do not matter to us yet. We’ll cover them in detail in the chapter.
 
-### A real-life analogy
+## A real-life analogy
 
 We can easily grasp the concept of a “variable” if we imagine it as a “box” for data, with a uniquely-named sticker on it. <br>
 For instance, the variable `message` can be imagined as a box labelled `"message"` with the value `"Hello!"` inside it:
@@ -143,7 +143,7 @@ In such languages, once the value is stored “in the box”, it’s there forev
 
 Though it may seem a little odd at first sight, these languages are quite capable of serious development. More than that, there are areas like *parallel computations* where this limitation confers certain benefits.
 
-### Variable naming
+## Variable naming
 
 There are two limitations on variable names in JavaScript:
 
@@ -226,7 +226,7 @@ This is a bad practice and would cause an error in strict mode:
 num = 5; // error: num is not defined
 ```
 
-### Constants
+## Constants
 
 To declare a constant (unchanging) variable, use `const` instead of `let`:
 
@@ -276,7 +276,7 @@ For instance:
 The value of `pageLoadTime` is not known before the page load, so it’s named normally. But it’s still a constant because it doesn’t change after the assignment. <br>
 In other words, capital-named constants are only used as *aliases* for “hard-coded” values.
 
-### Name things right
+## Name things right
 
 Talking about variables, there’s one more extremely important thing. <br>
 A variable name should have a clean, obvious meaning, describing the data that it stores. <br>
@@ -308,7 +308,7 @@ Such programmers save a little bit on variable declaration but lose ten times mo
 An extra variable is good, not evil. <br>
 Modern JavaScript minifiers and browsers optimise code well enough, so it won’t create performance issues. Using different variables for different values can even help the engine optimise your code. <br>
 
-### Summary
+## Summary
 
 We can declare variables to store data by using the `var`, `let`, or `const` keywords.
 
@@ -317,7 +317,7 @@ We can declare variables to store data by using the `var`, `let`, or `const` key
 `const` – is like let, but the value of the variable can’t be changed. <br>
 Variables should be named in a way that allows us to easily understand what’s inside them.
 
-# Tasks
+## Tasks
 
 **Working with variables**
 
