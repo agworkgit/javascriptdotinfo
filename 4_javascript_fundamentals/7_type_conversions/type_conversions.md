@@ -58,11 +58,11 @@ alert(age); // NaN, coversion failed
 
 Numeric conversion rules: <br>
 
-| Value              | Becomes...  |
-| -------------------| ------------|
-| `undefined`         | `NaN`       |
-| `null`             | `0`         |
-| `true` and `false` | `1` and `0` |
+| Value              | Becomes...                                                                                                                                                                                                                   |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `undefined`        | `NaN`                                                                                                                                                                                                                        |
+| `null`             | `0`                                                                                                                                                                                                                          |
+| `true` and `false` | `1` and `0`                                                                                                                                                                                                                  |
 | `string`           | Whitespaces (includes spaces, tabs `\t`, newlines `\n` etc.) from the start and end are removed. If the remaining string is empty, the result is `0`. Otherwise, the number is “read” from the string. An error gives `NaN`. |
 
 Examples:
@@ -85,8 +85,9 @@ Boolean conversion is the simplest one. <br>
 It happens in logical operations (later we'll meet condition tests and other similar things) but can also be performed explicitly with a call to `Boolean(value)`. <br>
 
 The conversion rule:
-- Values that are intuitively "empty", like `0`, or empty string, `null`, `undefined`, and `NaN`, become `false`.
-- Other values become `true`.
+
+-   Values that are intuitively "empty", like `0`, or empty string, `null`, `undefined`, and `NaN`, become `false`.
+-   Other values become `true`.
 
 For instance:
 
@@ -97,3 +98,18 @@ alert(Boolean(0)); // false
 alert(Boolean("hello")); // true
 alert(Boolean("")); // false
 ```
+
+Please note: the string with zero "0" is true
+Some languages (namely PHP) treat "0" as false. But in JavaScript, a non-empty string is always true.
+
+```
+alert( Boolean("0") ); // true
+alert( Boolean(" ") ); // spaces, also true (any non-empty string is true)
+```
+
+Summary
+The three most widely used type conversions are to string, to number, and to boolean.
+
+String Conversion – Occurs when we output something. Can be performed with String(value). The conversion to string is usually obvious for primitive values.
+
+Numeric Conversion – Occurs in math operations. Can be performed with Number(value).
