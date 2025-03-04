@@ -99,17 +99,21 @@ alert(Boolean("hello")); // true
 alert(Boolean("")); // false
 ```
 
-Please note: the string with zero "0" is true
-Some languages (namely PHP) treat "0" as false. But in JavaScript, a non-empty string is always true.
+**Please note: the string with zero `"0"` is `true`**
+
+Some languages (namely PHP) treat `"0"` as `false`. But in JavaScript, a non-empty string is always `true`.
 
 ```
 alert( Boolean("0") ); // true
 alert( Boolean(" ") ); // spaces, also true (any non-empty string is true)
 ```
 
-Summary
+# Summary
+
 The three most widely used type conversions are to string, to number, and to boolean.
 
-String Conversion – Occurs when we output something. Can be performed with String(value). The conversion to string is usually obvious for primitive values.
+**String Conversion** – Occurs when we output something. Can be performed with `String(value)`. The conversion to string is usually obvious for primitive values.
 
-Numeric Conversion – Occurs in math operations. Can be performed with Number(value).
+**Numeric Conversion** – Occurs in math operations. Can be performed with `Number(value)`.
+
+The conversion follows the rules:
